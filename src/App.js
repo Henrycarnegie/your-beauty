@@ -1,7 +1,6 @@
-import React from 'react'
-import Homepage from './pages/Homepage'
+import Homepage from './pages/Home'
 
-function App() {
+const App = () => {
   return (
     <Homepage />
   )
