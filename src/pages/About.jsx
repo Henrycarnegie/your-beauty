@@ -1,10 +1,7 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../component/Header';
+import Footer from '../component/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../assets/css/style.css';
-import iconBesar from '../assets/images/icon/icon_besar.png';
-import poseMale from '../assets/images/icon/pose_male.png';
 
 const About = () => {
   return (
@@ -20,7 +17,7 @@ const About = () => {
             <div className="content col-lg-10 d-flex align-items-center justify-content-around">
               <div className="icon-besar col-lg-5">
                 <img className="img-fluid" style={{ width: '75%', height: '80%', borderRadius: '50%' }}
-                  src={iconBesar} alt="Icon Besar" />
+                  src="/assets/images/icon/icon_besar.png" alt="Icon Besar" />
               </div>
 
               <div className="title-beauty col-lg-4 d-flex align-items-center">                     
@@ -61,7 +58,7 @@ const About = () => {
                       kecantikan kulit</h6>
                 </div>             
                 <div className="pose_male col-lg-4">
-                  <img className="img-fluid" src={poseMale} alt="Pose Male" />
+                  <img className="img-fluid" src="/assets/images/icon/pose_male.png" alt="Pose Male" />
                 </div>
               </div>
             </div>

@@ -1,15 +1,19 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
 import About from './pages/About';
-import Home from './pages/Home'; // Assuming you have a Home component
+import SkinTypeLanding from './pages/SkinTypeLanding';
 
 const App = () => {
   return (
     <Router>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/SkinTypeLanding" element={<SkinTypeLanding />} />
+
+        {/* <Route path="/contact" element={<Contact />} /> */}
+      </Routes>
     </Router>
   );
 };
