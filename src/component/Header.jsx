@@ -36,9 +36,9 @@ const TopHeader = () => {
                         </div>
                         <div className="col-lg-4 right-container d-flex justify-content-center align-items-center">
                             <ul className="list-group pe-2">
-                                <li className="list-group-item"><a href="index.php">Beranda</a></li>
-                                <li className="list-group-item"><a href="about_us.php">Tentang</a></li>
-                                <li className="list-group-item"><a href="skintype_landing.php">Test Kulit</a></li>
+                                <li className="list-group-item"><a href="/">Beranda</a></li>
+                                <li className="list-group-item"><a href="/about">Tentang</a></li>
+                                <li className="list-group-item"><a href="/skinTypeLanding">Test Kulit</a></li>
                             </ul>
                             <div className="dropdown">
                                 <button
@@ -67,7 +67,7 @@ const TopHeader = () => {
                                                     </button>
                                                 </form>
                                             ) : (
-                                                <a href='register/signup.php'>Signup</a>
+                                                <a href='/signup'>Signup</a>
                                             )}
                                         </div>
                                     </li>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Header from '../component/Header';
 import Footer from '../component/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,7 +11,7 @@ const Home = () => {
       {/* Navigation Bar */}
       <Header />
       {/* Navigation Bar */}
-
+      
       {/* Tampilan Awal Pengguna */}
       <section className="main-content">
         <div className="container">
@@ -24,9 +25,9 @@ const Home = () => {
                   Temukan semua rekomendasi produk di sini!
                 </span>
                 <div className="btn-test">
-                  <a href="SkinTypeLanding.jsx">
+                  <Link to="/skinTypeLanding">
                     <button type="button" className="btn btn-primary">Test Tipe Kulit</button>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="background-anim col-4">
