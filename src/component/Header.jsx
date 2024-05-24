@@ -23,10 +23,10 @@ const TopHeader = () => {
                             <div id="modalOpen" className="overlay hide col-4">
                                 {[...Array(3)].map((_, index) => (
                                     <div className="recommendation" key={index}>
-                                        <a href="search_result.php" className="product-img">
+                                        <a href="/searchresult" className="product-img">
                                             <img src="assets/images/content/recom_item1.png" alt="" className="img-fluid me-2" />
                                         </a>
-                                        <a href="search_result.php" className="product-name">
+                                        <a href="/searchresult" className="product-name">
                                             <h6>Toner "The Originote"</h6>
                                             <span>mengandung Ceraluronic Essence</span>
                                         </a>
@@ -54,7 +54,7 @@ const TopHeader = () => {
                                 </button>
                                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                     <li>
-                                        <a className="dropdown-item" href="profil.php">
+                                        <a className="dropdown-item" href="/profil">
                                             <strong>Profil</strong>
                                         </a>
                                     </li>

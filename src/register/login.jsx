@@ -61,7 +61,7 @@ const Login = () => {
                         </form>
                     </div>
                     <div className="col-4 img-login">
-                        <img src="/public/assets/images/content/3d_login.png" alt="3D Login" />
+                        <img src="/assets/images/content/3d_login.png" alt="3D Login" />
                     </div>
                 </div>
             </div>

@@ -25,23 +25,23 @@ const Footer = () => {
                 <h2 className="mx-4">Navigasi</h2>
                 <ul>
                   <li><a href="/">Home</a></li>
-                  <li><a href="/about_us">About Us</a></li>
-                  <li><a href="/skintype_landing">Test Skin Type</a></li>
+                  <li><a href="/about">About Us</a></li>
+                  <li><a href="/skinTypeLanding">Test Skin Type</a></li>
                 </ul>
               </div>
               <div className="col-4 temukan">
                 <h2 className="mx-4">Temukan Lainnya</h2>
                 <ul>
                   <li><a href="#">Brand</a></li>
-                  <li><a href="#">Product</a></li>
+                  <li><a href="/previewproduct">Product</a></li>
                 </ul>
               </div>
               <div className="col-2 tentang">
                 <h2 className="mx-4">About Us</h2>
                 <ul>
-                  <li><a href="#"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                  <li><a href="#"><FontAwesomeIcon icon={faTwitter} /></a></li>
-                  <li><a href="#"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                  <li><a href="https://www.instagram.com/samuelnd_/"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                  <li><a href="https://x.com/?lang=en-id&mx=2"><FontAwesomeIcon icon={faTwitter} /></a></li>
+                  <li><a href="https://www.linkedin.com/in/samuel-siagian03/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
                 </ul>
               </div>
             </div>
