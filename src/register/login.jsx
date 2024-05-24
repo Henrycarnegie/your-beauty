@@ -52,7 +52,7 @@ const Login = () => {
                                     <label htmlFor="rememberMe">Ingat Saya</label>
                                 </div>
                                 <div className="forget-pass">
-                                    <a href="#">Lupa Kata Sandi</a>
+                                    <a href="/forgetPass">Lupa Kata Sandi</a>
                                 </div>
                             </div>
                             <div className="d-grid">

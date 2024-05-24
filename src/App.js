@@ -7,6 +7,7 @@ import SkinTypeResult from './pages/SkinTypeResult';
 import Signup from './register/signup';
 import SignupProcess from './register/signupProcess';
 import Login from './register/login';
+import ForgetPass from './register/forgetpass';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/signup" element={<Signup />} />
         <Route path="/signupProcess" element={<SignupProcess />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/forgetpass" element={<ForgetPass />} />
 
       </Routes>
     </Router>
