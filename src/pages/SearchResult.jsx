@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../component/Header';
 import Footer from '../component/Footer';
-import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css';
+// import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css';
 
 const SearchResult = () => {
     return (

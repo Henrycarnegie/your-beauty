@@ -6,7 +6,7 @@ const Signup = () => {
             <div className="container">
                 <div className="container-content col-12 d-flex">
                     <div className="col-4 img-signup">
-                        <img src="/public/assets/images/content/3d_signup.png" alt="" />
+                        <img src="/assets/images/content/3d_signup.png" alt="" />
                     </div>
                     <div className="col-8 form-signup d-flex justify-content-center align-items-center">
                         <form action="/signupProcess" method="post" className="col-8">
